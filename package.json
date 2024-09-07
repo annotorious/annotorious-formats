@@ -1,0 +1,37 @@
+{
+  "name": "@annotorious/formats",
+  "version": "1.0.0",
+  "description": "Additional data and format parsers for Annotorious",
+  "author": "Rainer Simon",
+  "license": "BSD-3-Clause",
+  "homepage": "https://annotorious.github.io",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annotorious/annotorious.git"
+  },
+  "bugs": {
+    "url": "https://github.com/annotorious/annotorious/issues"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "main": "./dist/annotorious-formats.js",
+  "module": "./dist/annotorious-formats.es.js",
+  "types": "./dist/annotorious-formats.d.ts",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/uuid": "^10.0.0",
+    "jsdom": "^25.0.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3",
+    "vite-plugin-dts": "4.1.1",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "@annotorious/annotorious": "^3.0.5",
+    "uuid": "^10.0.0"
+  }
+}
