@@ -1,17 +1,17 @@
 {
   "name": "@annotorious/formats",
   "version": "1.0.0",
-  "description": "Additional data and format parsers for Annotorious",
+  "description": "Additional data and annotation format parsers for Annotorious",
   "author": "Rainer Simon",
   "license": "BSD-3-Clause",
-  "homepage": "https://annotorious.github.io",
+  "homepage": "https://annotorious.dev",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/annotorious/annotorious.git"
+    "url": "git+https://github.com/annotorious/annotorious-formats.git"
   },
   "bugs": {
-    "url": "https://github.com/annotorious/annotorious/issues"
+    "url": "https://github.com/annotorious/annotorious-formats/issues"
   },
   "scripts": {
     "build": "vite build",
