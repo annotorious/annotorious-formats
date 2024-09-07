@@ -1,3 +1,3 @@
 # @annotorious/formats
 
-Format serialization and de-serialization for Annotorious.
+Additional data & annotation format parsers for Annotorious.
